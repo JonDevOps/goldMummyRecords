@@ -76,7 +76,9 @@
   });
 
   // Navigation active state on scroll
-  var nav_sections = $('section');
+  //I commented this out because it highlights the nav li's but it is no longer needed or fuctional. I kept it here in case I broke something by removing it.
+/*
+var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
   $(window).on('scroll', function() {
@@ -97,6 +99,7 @@
       }
     });
   });
+*/
 
   // Back to top button
   $(window).scroll(function() {
